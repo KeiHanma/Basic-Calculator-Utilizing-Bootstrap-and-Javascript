@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Personal Site Using Bootstrap v5</title>
+
+  <!-- Favicons -->
+  <link href="src/img/favicon.png" rel="icon">
+  <link href="src/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap v5 CSS Files -->
+  <link href="src/css/bootstrap.css" rel="stylesheet">
+  <link href="src/css/aos.css" rel="stylesheet">
+  <link href="src/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Main Custom CSS File -->
+  <link href="src/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ======= Menu Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="src/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Charlie Nagal</a></h1>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="main.html" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Me</span></a></li>
+          <li><a href="main.html" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</a></li>
+          <li><a href="bio.html" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Autobiography</span></a></li>
+          <li><a href="gallery.html" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Gallery</span></a></li>
+          <li><a href="contact.html" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main id="main">
+
+    <section id="contact" class="contact">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2><img src="src/img/Contact.svg">Contact</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Name/Code Name (Optional)</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your name with anyone else.</div>
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <label for="country">Country</label>
+                <select select id="country" name="country">
+                <option value="Philippines">Philippines</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                </select><br>
+                <form>Comments</form>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+          </div>
+          
+      </section>
+
+  </main>
+
+  
+</body>
+
+</html>
